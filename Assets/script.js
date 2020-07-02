@@ -11,6 +11,7 @@ var allotedtime = document.querySelector(".timealot");
 function quiz() {
   var time = setInterval(timer, 120000);
   high.innerText = "";
+  result.innerText = "";
   allotedtime.innerText = "You have TWO MINUTES! GO!";
   question1();
 }
@@ -119,5 +120,4 @@ function displayHighScore() {
     localStorage.getItem("highscore") +
     ", which was set by the venerable " +
     localStorage.getItem("inits").toUpperCase();
-  result.innerText = "";
 }
