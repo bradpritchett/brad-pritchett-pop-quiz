@@ -9,6 +9,7 @@ var high = document.querySelector(".high");
 var allotedtime = document.querySelector(".timealot");
 
 function quiz() {
+  score = 0;
   var time = setInterval(timer, 120000);
   high.innerText = "";
   result.innerText = "";
@@ -101,8 +102,6 @@ function endGame() {
   } else {
     displayHighScore();
   }
-
-  score = 0;
 }
 
 function updateScores() {
