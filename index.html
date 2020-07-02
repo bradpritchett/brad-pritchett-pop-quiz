@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QUIZ TIME</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&amp;family=Julee"
+      rel="stylesheet"
+    />
+    <style>
+      h1,
+      h2,
+      .timealot {
+        font-family: "Permanent Marker", cursive;
+        color: white;
+      }
+      .center {
+        text-align: center;
+      }
+      .jumbotron {
+        background-color: black;
+      }
+      .answers .btn {
+        display: block;
+        margin: 7px 0;
+      }
+      .result {
+        font-style: italic;
+        margin-top: 7px;
+        padding-top: 7px;
+      }
+      .hidden {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid center">
+      <h1>Pop Quiz, Hotshot</h1>
+      <h2>Ready?</h2>
+      <p>
+        <button onclick="quiz()" class="btn btn-success btn-lg">
+          OK
+        </button>
+      </p>
+      <p class="timealot"></p>
+    </div>
+
+    <div class="container">
+      <div class="question-number"></div>
+      <div class="question"></div>
+      <div class="answers"></div>
+      <p class="result"></p>
+
+      <form class="hidden" id="submit-form">
+        <input type="text" class="playername" placeholder="Your Initials" />
+        <button type="button" onclick="updateScores()">Submit</button>
+      </form>
+      <h3 class="high"></h3>
+    </div>
+    <script type="text/javascript" src="./Assets/script.js"></script>
+  </body>
+</html>
