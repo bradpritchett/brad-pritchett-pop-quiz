@@ -80,7 +80,7 @@ function question4() {
   questionNumber.innerText = "Question Four";
   question.innerText = "WHAT is a variable?";
   answers.innerHTML =
-    "<button class='btn btn-primary true answer'>Containers for storing data values.</button><button class='btn btn-primary true answer'>That which is not consistent or having a fixed pattern; liable to change.</button><button class='btn btn-primary true answer'>That which is able to be changed or adapted.</button><button class='btn btn-primary answer'>A small, spiky mammal.</button>";
+    "<button class='btn btn-primary true answer'>Containers for storing data values.</button><button class='btn btn-primary true answer'>That which is able to be changed or adapted.</button><button class='btn btn-primary answer'>A small, spiky mammal.</button>";
 }
 
 function endGame() {
