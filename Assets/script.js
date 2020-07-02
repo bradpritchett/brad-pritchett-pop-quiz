@@ -16,6 +16,7 @@ function quiz() {
 }
 
 function timer() {
+  alert("YOU LOSE. GOOD DAY!");
   endGame();
 }
 
