@@ -100,6 +100,7 @@ function endGame() {
   } else {
     displayHighScore();
   }
+
   score = 0;
 }
 
@@ -118,4 +119,5 @@ function displayHighScore() {
     localStorage.getItem("highscore") +
     ", which was set by the venerable " +
     localStorage.getItem("inits").toUpperCase();
+  result.innerText = "";
 }
