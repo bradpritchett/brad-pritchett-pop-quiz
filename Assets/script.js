@@ -114,7 +114,7 @@ function updateScores() {
 }
 
 function displayHighScore() {
-  result.innerText = "Your score is " + score;
+  result.innerText = "Your score was " + score;
   high.innerText =
     "Highest score was " +
     localStorage.getItem("highscore") +
