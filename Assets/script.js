@@ -109,6 +109,7 @@ function updateScores() {
   localStorage.setItem("highscore", score);
   localStorage.setItem("inits", inits);
   displayHighScore();
+  score = 0;
 }
 
 function displayHighScore() {
