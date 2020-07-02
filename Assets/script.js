@@ -66,7 +66,7 @@ function question2() {
   questionNumber.innerText = "Question Two";
   question.innerText = "WHY would they do that?";
   answers.innerHTML =
-    "<button class='btn btn-primary answer'>Spite</button><button class='btn btn-primary answer'>No one knows</button><button class='btn btn-primary true answer'>The internet needed a an object-oriented computer programming language used to create interactive effects within web browsers.</button>";
+    "<button class='btn btn-primary answer'>Spite</button><button class='btn btn-primary answer'>No one knows</button><button class='btn btn-primary true answer'>The internet was without an object-oriented computer programming language that could be used to create interactive effects within web browsers.</button>";
 }
 
 function question3() {
